@@ -1,33 +1,7 @@
 <html>
 <head>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script>
-	    var x = $(".audio-player").length; // Count total audio players
-	    var z = 0; // Start at first audio player
-
-	    $("#play-bt").click(function(){
-	        $(".audio-player")[z].play();
-	        $(".message").text("Music started");
-	    })
-	    $("#pause-bt").click(function(){
-	        $("#audio-player")[z].pause();
-	        $(".message").text("Music paused");
-	    })
-	    $("#stop-bt").click(function(){
-	        $(".audio-player")[z].pause();
-	        $(".audio-player")[z].currentTime = 0;
-	        $(".message").text("Music Stopped");
-	    })
-	    $("#next-bt").click(function(){
-	        $(".audio-player")[z].pause();
-	        z++;
-	        if (z >= x) z = 0;
-	        $(".audio-player")[z].play();
-	        $(".message").text("Track: "+z);
-	    })
-
-        })
-    </script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.1.2.min.js"></script>
+	<script src="player.js"></script>
 	<meta charset="utf-8" />
 	<title>Site</title>
 	<link rel="stylesheet" type="text/css" href="site.css">
