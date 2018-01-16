@@ -8,7 +8,6 @@ body {
   height: 75px;
   margin: 0;
   font-size: 0;
-
 }
 
 .but-box {
@@ -97,4 +96,39 @@ body {
   display: inline-block;
   color: white;
   box-sizing: border-box;
+}
+
+@media only screen
+  and (min-width: 375px)
+  and (max-width: 1000px) {
+
+  .mainblock {
+    width: 100%;
+  }
+
+  .block1 {
+    width: calc(100% - 66px);
+    text-align: center;
+  }
+
+  .name-box {
+    font-size: 30px;
+  }
+
+  //TODO: Добавить разный (адекватный) размер для альбомной и книжной ориентации
+
+  .big-logo {
+    width: 346px;
+    height: 519px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .text-block {
+    width: 100%;
+  }
+
+  .but-box {
+    display: none;
+  }
 }
