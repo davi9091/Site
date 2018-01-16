@@ -1,24 +1,80 @@
 body {
   margin: 0;
+  margin-top: -1px;
+  padding-top:1px;
 }
 
 .sidenav {
-  
+  padding-top: 75px;
+  width: 0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #151515;
+  transition: 0.5s;
+  overflow-x: hidden;
+  z-index: 1;
+}
+
+.line {
+  position: absolute;
+  right: 30px;
+  background-color: #aaaaaa;
+  width: 40px;
+  height: 5px;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+//TODO: Сделать, чтобы крестик нажимался не только на полосках, но и вокруг
+
+.closebtn {
+  transition: 0.5s;
+}
+
+.closebtn:hover .line{
+  background-color: white;
+}
+
+.closeupper {
+  top: 25px;
+  transform: rotate(-45deg)translate(-5px, 15px);
+}
+
+.closelower {
+  top: 45px;
+  transform: rotate(45deg) translate(1px, -9px);
+}
+
+.openbtn {
+  position: absolute;
+  top: 15px;
+  width: 40px;
+  height: 40px;
+  left: 15px;
+}
+.openupper.line {
+  right: auto;
+  top: 10px;
+}
+
+.openlower.line {
+  top: 30px;
+  right: auto
+}
+
+.openbtn:hover .line{
+  background-color: white;
 }
 
 .header {
+  position: fixed;
   background-color: #151515;
   width: 100%;
   height: 75px;
   margin: 0;
   font-size: 0;
-}
-
-.but-box {
-  position: absolute;
-  top: 15px;
-  right: 0;
-  width: 460px;
 }
 
 .btn {
@@ -42,11 +98,14 @@ body {
   color: white;
 }
 
+.sidenav .btn {
+  margin: 20px;
+  margin-left: 45px;
+}
 
 .name-box {
-  margin-left: 20px;
-  vertical-align: middle;
-  display: inline-block;
+  text-align: center;
+  margin-top: 15px;
   color: white;
   font-size: 40px;
 }
@@ -72,10 +131,10 @@ body {
   height: 1200px;
   margin: auto;
   overflow: auto;
+  margin-top: 75px;
 }
 
 .block1 {
-
   width: 700px;
   padding: 15px;
   display: inline-block;
