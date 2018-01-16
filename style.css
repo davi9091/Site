@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #151515;
+  width: 100%;
+  height: 75px;
+  margin: 0;
+  font-size: 0;
+
+}
+
+.but-box {
+  position: absolute;
+  top: 15px;
+  right: 0;
+  width: 460px;
+}
+
+.but {
+  display: inline-block;
+  width:  100px;
+  height: 45px;
+  margin: 0;
+  margin-right: 15px;
+  background-color: #aaaaaa;
+  box-sizing: -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 17px;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+
+}
+
+.but:hover {
+  background-color: white;
+}
+
+
+.name-box {
+  margin-left: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  color: white;
+  font-size: 40px;
+}
+
+.logo-box {
+  vertical-align: middle;
+  margin: 7.5px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.logo-circle {
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.mainblock {
+  background-color: #373737;
+  width: 80%;
+  height: 1200px;
+  margin: auto;
+  overflow: auto;
+}
+
+.block1 {
+
+  width: 700px;
+  padding: 15px;
+  display: inline-block;
+  margin: 15px;
+  border: 3px solid white;
+}
+
+.big-logo {
+  vertical-align: top;
+  margin-right: 15px;
+  display: inline-block;
+  background-color: white;
+  width: 200px;
+  height: 300px;
+}
+
+.text-block {
+  font-family: sans-serif;
+  font-size: 19px;
+  vertical-align: top;
+  width: 470px;
+  display: inline-block;
+  color: white;
+  box-sizing: border-box;
+}
