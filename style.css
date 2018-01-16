@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+.sidenav {
+  
+}
+
 .header {
   background-color: #151515;
   width: 100%;
@@ -17,25 +21,25 @@ body {
   width: 460px;
 }
 
-.but {
+.btn {
   display: inline-block;
   width:  100px;
   height: 45px;
   margin: 0;
   margin-right: 15px;
-  background-color: #aaaaaa;
   box-sizing: -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 17px;
   text-align: center;
-  padding: 5px;
+  padding-top: 12px;
   text-decoration: none;
-  color: black;
-
+  color: #aaaaaa;
+  transition: 0.3s;
+  vertical-align;
 }
 
-.but:hover {
-  background-color: white;
+.btn:hover {
+  color: white;
 }
 
 
