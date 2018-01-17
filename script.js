@@ -1,6 +1,6 @@
 function OpenNav() {
   $('.sidenav').css({
-  "width": "200px"
+  "width": "250px"
   });
 };
 
