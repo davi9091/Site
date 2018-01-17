@@ -11,21 +11,23 @@
   <script src="./script.js" charset="utf-8"></script>
 </head>
 <body>
-  <div class="sidenav">
-    <div class="closebtn" onclick="CloseNav()">
+  <div class="openbtn" onclick="ToggleNav()">
+    <div class="openupper line"></div>
+    <div class="openlower line"></div>
+  </div>
+  <div class="sidenav closed">
+    <!--<div class="closebtn" onclick="ToggleNav()">
       <div class="closeupper line"></div>
       <div class="closelower line"></div>
     </div>
+    -->
     <a href="#" class="btn">Ссылка раз</a>
     <a href="#" class="btn">Ссылка 2</a>
     <a href="#" class="btn">Три</a>
     <a href="#" class="btn">Four</a>
   </div>
   <div class="header">
-      <div class="openbtn" onclick="OpenNav()">
-        <div class="openupper line"></div>
-        <div class="openlower line"></div>
-      </div>
+
       <div class="name-box">MY AWESOME NAME</div>
   </div>
   <div class="mainblock">
