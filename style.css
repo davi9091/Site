@@ -172,17 +172,6 @@ a {
   box-shadow: 0 0 10px black;
 }
 
-.line {
-  background-color: white;
-  display: block;
-  left: 5%;
-  top: 32px;
-  position: relative;
-  width: 90%;
-  height: 2px;
-  box-shadow: 0 0 20px black;
-}
-
 @media only screen
   and (min-width: 375px)
   and (max-width: 1000px) {
